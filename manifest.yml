@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: LHH-First-IoT-App
+  host: LHH-First-IoT-App
+  disk_quota: 1024M
+  services:
+  - LHH-First-IoT-App-cloudantNoSQLDB
+  - LHH-First-IoT-App-iotf-service
+  - availability-monitoring-auto
